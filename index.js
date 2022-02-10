@@ -33,6 +33,14 @@ const quizData = [
    d: "none of the above",  
    correct: "b",  
   },  
+  {  
+    question: "JavaScript is a ___ -side programming language?",  
+    a: "client",  
+    b: "server",  
+    c: "both",  
+    d: "none of the above",  
+    correct: "c",  
+   },  
  ];  
  const quiz = document.getElementById("quiz");  
  const answerElements = document.querySelectorAll(".answer");  
